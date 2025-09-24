@@ -1,0 +1,13 @@
+{
+    "python.defaultInterpreterPath": ".venv/bin/python3",
+    "mypy-type-checker.enabled": true,
+    "makefile.configureOnOpen": false,
+    "python.analysis.typeCheckingMode": "strict",
+    "python.analysis.diagnosticMode": "workspace",
+    "python.analysis.inlayHints.variableTypes": true,
+    "python.analysis.inlayHints.functionReturnTypes": true,
+    "cSpell.words": [
+        "reprioritization",
+        "repriotization"
+    ]
+} 

@@ -1,0 +1,251 @@
+python_expression,natural_language,value
+(21 * (4 + 1)) - 24,"add 4 and 1, multiply that by 21, then subtract 24.",81
+8 * 8 + 5 - 24,"multiply 8 by 8, then add 5, then subtract 24.",45
+(22 * (24 - 18)) + 3,"subtract 18 from 24, multiply that by 22, then add 3.",135
+(14 + 2) * (1 - 3),"add 14 and 2, take 1 minus 3, then multiply the two results.",-32
+(8 * 17 * 20) + 1,"multiply 8, 17, and 20 together, then add 1.",2721
+(7 * 23 * 21) + 23,"multiply 7, 23, and 21 together, then add 23.",3404
+(14 * (8 + 15)) - 19,"add 8 and 15, multiply that by 14, then subtract 19.",303
+((1 + 25) * (6 + 23)),"add 1 and 25, add 6 and 23, then multiply the two results.",754
+(11 + 9) * (5 + 7) - 11,"add 11 and 9, add 5 and 7, multiply the sums, then subtract 11.",229
+11 * 4 + 3 - 13,"multiply 11 by 4, then add 3, then subtract 13.",34
+((12 + 12 + 20) * 9) - 12,"add 12, 12, and 20, multiply by 9, then subtract 12.",384
+2 * 24 + 15 - 18,"multiply 2 by 24, then add 15, then subtract 18.",45
+(13 * 3) + (18 + 10),"multiply 13 by 3, then add 18 and 10.",67
+(21 + 20) * (12 - 19),"add 21 and 20, take 12 minus 19, then multiply the two results.",-287
+(23 + 3 + 2 + 22),"add 23, 3, 2, and 22.",50
+(25 + 10) + (3 - 8),"add 25 and 10, subtract 8 from 3, then add the two results.",30
+((4 + 13) - 9) * 15,"add 4 and 13, subtract 9, then multiply by 15.",120
+(12 + 6) * (12 - 12),"add 12 and 6, take 12 minus 12, then multiply the two results.",0
+((22 + 9) - 23) * 22,"add 22 and 9, subtract 23, then multiply by 22.",176
+(3 * 20 * 21) + 6,"multiply 3, 20, and 21 together, then add 6.",1266
+(24 - (8 * 6)) + 15,"multiply 8 by 6, subtract that from 24, then add 15.",-9
+(9 + 21 + 23 + 18),"add 9, 21, 23, and 18.",71
+(22 - 11) * 25 + 25,"subtract 11 from 22, multiply the result by 25, then add 25.",300
+(8 * (2 + 11)) - 13,"add 2 and 11, multiply that by 8, then subtract 13.",91
+(3 + (7 * 19)) - 23,"multiply 7 by 19, add 3 to that, then subtract 23.",113
+(7 * (21 + 16)) + 13,"add 21 and 16, multiply by 7, then add 13.",272
+(21 + 15 + 5) - 9,"add 21, 15, and 5, then subtract 9.",32
+(8 * (24 + 18)) - 18,"add 24 and 18, multiply that by 8, then subtract 18.",318
+(24 - (19 * 14)) + 19,"multiply 19 by 14, subtract that from 24, then add 19.",-223
+(12 + 8) - (5 + 17),"add 12 and 8, add 5 and 17, then subtract the second sum from the first.",-2
+(3 + 25 + 2) - 4,"add 3, 25, and 2, then subtract 4.",26
+(21 + (6 - 22)) * 14,"subtract 22 from 6, add 21 to that, then multiply by 14.",70
+(3 * 13) - 13 - 20,"multiply 3 by 13, then subtract 13, then subtract 20.",6
+(17 + 9) * 18 + 1,"add 17 and 9, multiply by 18, then add 1.",469
+(24 + 4) * (22 + 18) - 24,"add 24 and 4, add 22 and 18, multiply the sums, then subtract 24.",1096
+9 * 25 + 21 - 11,"multiply 9 by 25, then add 21, then subtract 11.",235
+(10 + 14) * 6 - 15,"add 10 and 14, then multiply that by 6, then subtract 15 from that.",129
+(24 + 24) * (9 + 17) - 24,"add 24 and 24, add 9 and 17, multiply the sums, then subtract 24.",1224
+((6 + 17) * 4) + 21,"add 6 and 17, multiply by 4, then add 21.",113
+(21 + 17 + 20) - 7,"add 21, 17, and 20, then subtract 7.",51
+(12 + 25) * (6 + 18) - 12,"add 12 and 25, add 6 and 18, multiply the sums, then subtract 12.",876
+(17 + 1) - (20 + 11),"add 17 and 1, add 20 and 11, then subtract the second sum from the first.",-13
+(1 + 4 + 12 + 10),"add 1, 4, 12, and 10.",27
+(2 + 8) + (19 * 3),"add 2 and 8, then add the product of 19 and 3.",67
+(24 * 16 * 3) + 25,"multiply 24, 16, and 3 together, then add 25.",1177
+(25 + 5) - (5 + 22),"add 25 and 5, add 5 and 22, then subtract the second sum from the first.",3
+(18 + 6) + (9 - 17),"add 18 and 6, subtract 17 from 9, then add the two results.",16
+(20 + 14) * (7 + 18) - 20,"add 20 and 14, add 7 and 18, multiply the sums, then subtract 20.",830
+((24 + 23) * 7) + 23,"add 24 and 23, multiply by 7, then add 23.",352
+(13 * 22) - 21 - 12,"multiply 13 by 22, then subtract 21, then subtract 12.",253
+(17 + 15 + 4 + 8),"add 17, 15, 4, and 8.",44
+(3 * 11 * 1) + 19,"multiply 3, 11, and 1 together, then add 19.",52
+(8 + 19) + (8 * 1),"add 8 and 19, then add the product of 8 and 1.",35
+(23 + 21) + (2 * 8),"add 23 and 21, then add the product of 2 and 8.",60
+(2 + 11 + 3 + 17),"add 2, 11, 3, and 17.",33
+(9 * 22 * 16) + 7,"multiply 9, 22, and 16 together, then add 7.",3175
+(5 + 24) - (19 + 19),"add 5 and 24, add 19 and 19, then subtract the second sum from the first.",-9
+8 * 16 + 14 - 7,"multiply 8 by 16, then add 14, then subtract 7.",135
+((4 + 22) * (14 + 12)),"add 4 and 22, add 14 and 12, then multiply the two results.",676
+(14 + 15) * 24 + 2,"add 14 and 15, multiply by 24, then add 2.",698
+(21 - (21 * 4)) + 2,"multiply 21 by 4, subtract that from 21, then add 2.",-61
+(24 + 11) * (4 - 8),"add 24 and 11, take 4 minus 8, then multiply the two results.",-140
+((7 + 18) * (15 + 5)),"add 7 and 18, add 15 and 5, then multiply the two results.",500
+(6 + 9) + (15 - 8),"add 6 and 9, subtract 8 from 15, then add the two results.",22
+(3 - 15) * 18 + 4,"subtract 15 from 3, multiply the result by 18, then add 4.",-212
+((21 - 18) * (1 + 3)),"subtract 18 from 21, add 1 and 3, then multiply the two results.",12
+(25 + 8) - (6 + 14),"add 25 and 8, add 6 and 14, then subtract the second sum from the first.",13
+(16 * 7) - (13 * 2),"multiply 16 by 7, then subtract the product of 13 and 2.",86
+((13 - 1) * (13 + 9)),"subtract 1 from 13, add 13 and 9, then multiply the two results.",264
+(15 * 10) + 14 + 23,"multiply 15 by 10, then add 14, then add 23.",187
+(18 + 22 + 23) - 16,"add 18, 22, and 23, then subtract 16.",47
+(7 * (10 - 7)) + 2,"subtract 7 from 10, multiply that by 7, then add 2.",23
+(24 + (18 * 2)) - 24,"multiply 18 by 2, add 24 to that, then subtract 24.",36
+((2 - 2) + (19 - 16)),"subtract 2 from 2, subtract 16 from 19, then add the two results.",3
+(17 + 6) + (2 * 17),"add 17 and 6, then add the product of 2 and 17.",57
+(6 + 3) * 20 + 3,"add 6 and 3, multiply by 20, then add 3.",183
+(8 + 13 + 4 + 19),"add 8, 13, 4, and 19.",44
+(19 + 20) + (2 * 20),"add 19 and 20, then add the product of 2 and 20.",79
+((14 - 22) + (19 - 19)),"subtract 22 from 14, subtract 19 from 19, then add the two results.",-8
+(11 - 9) + (7 * 22),"subtract 9 from 11, then add the product of 7 and 22.",156
+(11 + 8 + 9) - 13,"add 11, 8, and 9, then subtract 13.",15
+(22 + (21 * 10)) - 15,"multiply 21 by 10, add 22 to that, then subtract 15.",217
+(25 + (3 - 1)) * 15,"subtract 1 from 3, add 25 to that, then multiply by 15.",405
+(19 + 4) * (3 - 18),"add 19 and 4, take 3 minus 18, then multiply the two results.",-345
+(17 * (9 + 5)) + 12,"add 9 and 5, multiply by 17, then add 12.",250
+(3 * 8) - (12 * 10),"multiply 3 by 8, then subtract the product of 12 and 10.",-96
+(15 + (18 - 23)) * 10,"subtract 23 from 18, add 15 to that, then multiply by 10.",100
+(21 * 17) + (1 + 22),"multiply 21 by 17, then add 1 and 22.",380
+(18 * (10 + 22)) + 4,"add 10 and 22, multiply by 18, then add 4.",580
+(5 * 9) + 4 + 4,"multiply 5 by 9, then add 4, then add 4.",53
+(18 + (5 - 9)) * 10,"subtract 9 from 5, add 18 to that, then multiply by 10.",140
+(7 + 23) * 11 + 7,"add 7 and 23, multiply by 11, then add 7.",337
+(21 * (9 + 17)) - 16,"add 9 and 17, multiply that by 21, then subtract 16.",530
+(2 * 3) + (21 + 14),"multiply 2 by 3, then add 21 and 14.",41
+(9 + 2) * (1 + 11) - 9,"add 9 and 2, add 1 and 11, multiply the sums, then subtract 9.",123
+(5 * 21) + 9 + 6,"multiply 5 by 21, then add 9, then add 6.",120
+(15 * 18 * 23) + 14,"multiply 15, 18, and 23 together, then add 14.",6224
+(1 * (4 + 3)) + 23,"add 4 and 3, multiply by 1, then add 23.",30
+(5 * (18 - 2)) + 12,"subtract 2 from 18, multiply that by 5, then add 12.",92
+(18 - 5) * 14 + 5,"subtract 5 from 18, multiply the result by 14, then add 5.",187
+(10 + 12) * (2 - 12),"add 10 and 12, take 2 minus 12, then multiply the two results.",-220
+(22 * 8) + (22 * 4),"multiply 22 by 8, multiply 22 by 4, then add the two results.",264
+(25 * 18) + 14 + 20,"multiply 25 by 18, then add 14, then add 20.",484
+(5 * (8 + 6)) + 6,"add 8 and 6, multiply by 5, then add 6.",76
+((14 - 1) * (6 + 24)),"subtract 1 from 14, add 6 and 24, then multiply the two results.",390
+((11 + 14 + 22) * 24) - 14,"add 11, 14, and 22, multiply by 24, then subtract 14.",1114
+8 * 9 + 6 - 23,"multiply 8 by 9, then add 6, then subtract 23.",55
+(13 + 2) * (16 - 8),"add 13 and 2, take 16 minus 8, then multiply the two results.",120
+(15 + 12 + 10 + 8),"add 15, 12, 10, and 8.",45
+(1 + (22 * 7)) - 13,"multiply 22 by 7, add 1 to that, then subtract 13.",142
+(9 * 3) + (25 * 9),"multiply 9 by 3, multiply 25 by 9, then add the two results.",252
+(21 * 17) + (13 + 22),"multiply 21 by 17, then add 13 and 22.",392
+(18 * (11 + 1)) + 4,"add 11 and 1, multiply by 18, then add 4.",220
+(9 - 6) * 19 + 9,"subtract 6 from 9, multiply the result by 19, then add 9.",66
+(4 * 20) + 14 + 12,"multiply 4 by 20, then add 14, then add 12.",106
+11 * 14 + 20 - 17,"multiply 11 by 14, then add 20, then subtract 17.",157
+(13 - 19) * 7 + 9,"subtract 19 from 13, multiply the result by 7, then add 9.",-33
+((23 - 14) * (1 + 17)),"subtract 14 from 23, add 1 and 17, then multiply the two results.",162
+(18 * 22) + 24 + 24,"multiply 18 by 22, then add 24, then add 24.",444
+(22 + 7) + (12 * 14),"add 22 and 7, then add the product of 12 and 14.",197
+(22 + 11) * 20 + 11,"add 22 and 11, multiply by 20, then add 11.",671
+((4 + 24) * 10) + 17,"add 4 and 24, multiply by 10, then add 17.",297
+(22 - 14) + (11 * 13),"subtract 14 from 22, then add the product of 11 and 13.",151
+((10 + 18) * (5 + 7)),"add 10 and 18, add 5 and 7, then multiply the two results.",336
+(22 * (13 + 22)) + 24,"add 13 and 22, multiply by 22, then add 24.",794
+(6 - (20 * 19)) + 10,"multiply 20 by 19, subtract that from 6, then add 10.",-364
+(18 + 1) * (10 - 10),"add 18 and 1, take 10 minus 10, then multiply the two results.",0
+(14 + (19 * 20)) - 21,"multiply 19 by 20, add 14 to that, then subtract 21.",373
+(15 + 15) * (15 - 22),"add 15 and 15, take 15 minus 22, then multiply the two results.",-210
+(17 + 16) * 24 + 6,"add 17 and 16, multiply by 24, then add 6.",798
+((3 + 10) - 17) * 22,"add 3 and 10, subtract 17, then multiply by 22.",-88
+(20 + 11 + 3 + 25),"add 20, 11, 3, and 25.",59
+(22 + 10 + 8) - 7,"add 22, 10, and 8, then subtract 7.",33
+(1 + (2 - 8)) * 16,"subtract 8 from 2, add 1 to that, then multiply by 16.",-80
+(25 * (3 + 15)) + 14,"add 3 and 15, multiply by 25, then add 14.",464
+(21 - 19) + (7 * 23),"subtract 19 from 21, then add the product of 7 and 23.",163
+(13 + 16 + 13) - 8,"add 13, 16, and 13, then subtract 8.",34
+(21 + 23) + (1 - 25),"add 21 and 23, subtract 25 from 1, then add the two results.",20
+(25 + 4 + 25 + 14),"add 25, 4, 25, and 14.",68
+(6 - 23) * 17 + 15,"subtract 23 from 6, multiply the result by 17, then add 15.",-274
+(18 + 8 + 4) - 15,"add 18, 8, and 4, then subtract 15.",15
+(15 + (22 - 17)) * 18,"subtract 17 from 22, add 15 to that, then multiply by 18.",360
+(11 * 25) + (15 + 20),"multiply 11 by 25, then add 15 and 20.",310
+(24 * 17) - 14 - 18,"multiply 24 by 17, then subtract 14, then subtract 18.",376
+(6 * (24 + 16)) - 15,"add 24 and 16, multiply that by 6, then subtract 15.",225
+(25 + 8) * (21 + 9) - 25,"add 25 and 8, add 21 and 9, multiply the sums, then subtract 25.",965
+(25 + 17 + 16 + 21),"add 25, 17, 16, and 21.",79
+((9 + 15) * 3) + 23,"add 9 and 15, multiply by 3, then add 23.",95
+(8 * (9 + 11)) + 11,"add 9 and 11, multiply by 8, then add 11.",171
+(18 + 3 + 5 + 5),"add 18, 3, 5, and 5.",31
+(13 + 23) * (5 - 23),"add 13 and 23, take 5 minus 23, then multiply the two results.",-648
+(3 * 14 * 14) + 11,"multiply 3, 14, and 14 together, then add 11.",599
+(15 * 14) + (2 + 7),"multiply 15 by 14, then add 2 and 7.",219
+(14 - 13) + (25 * 19),"subtract 13 from 14, then add the product of 25 and 19.",476
+(1 + 25) - (19 + 13),"add 1 and 25, add 19 and 13, then subtract the second sum from the first.",-6
+(1 - (12 * 10)) + 25,"multiply 12 by 10, subtract that from 1, then add 25.",-94
+(14 * 18 * 24) + 24,"multiply 14, 18, and 24 together, then add 24.",6072
+(20 * (8 + 16)) - 8,"add 8 and 16, multiply that by 20, then subtract 8.",472
+(14 + (16 * 1)) - 13,"multiply 16 by 1, add 14 to that, then subtract 13.",17
+(22 * 22) - (13 * 24),"multiply 22 by 22, then subtract the product of 13 and 24.",172
+(15 + 5) * 20 - 18,"add 15 and 5, then multiply that by 20, then subtract 18 from that.",382
+(13 + 19) * 19 - 22,"add 13 and 19, then multiply that by 19, then subtract 22 from that.",586
+(3 + 21) + (14 - 5),"add 3 and 21, subtract 5 from 14, then add the two results.",33
+(15 - (6 * 2)) + 9,"multiply 6 by 2, subtract that from 15, then add 9.",12
+(11 + (7 * 15)) - 11,"multiply 7 by 15, add 11 to that, then subtract 11.",105
+(25 * 13) + (9 + 25),"multiply 25 by 13, then add 9 and 25.",359
+(14 + 9) * 3 - 16,"add 14 and 9, then multiply that by 3, then subtract 16 from that.",53
+(24 + 18 + 2 + 12),"add 24, 18, 2, and 12.",56
+(21 - 3) * 25 + 21,"subtract 3 from 21, multiply the result by 25, then add 21.",471
+(25 * 1) + (8 + 7),"multiply 25 by 1, then add 8 and 7.",40
+(1 + 20 + 5) - 8,"add 1, 20, and 5, then subtract 8.",18
+(16 + 22) * (4 - 19),"add 16 and 22, take 4 minus 19, then multiply the two results.",-570
+(15 * 23) + (9 * 25),"multiply 15 by 23, multiply 9 by 25, then add the two results.",570
+(6 - 20) + (20 * 24),"subtract 20 from 6, then add the product of 20 and 24.",466
+4 * 25 + 6 - 10,"multiply 4 by 25, then add 6, then subtract 10.",96
+(19 + 1) * 10 + 19,"add 19 and 1, multiply by 10, then add 19.",219
+(13 + 13) + (23 * 7),"add 13 and 13, then add the product of 23 and 7.",187
+19 * 23 + 21 - 8,"multiply 19 by 23, then add 21, then subtract 8.",450
+(23 + (25 - 10)) * 22,"subtract 10 from 25, add 23 to that, then multiply by 22.",836
+(4 * 19 * 2) + 12,"multiply 4, 19, and 2 together, then add 12.",164
+((14 - 22) + (12 - 3)),"subtract 22 from 14, subtract 3 from 12, then add the two results.",1
+(21 * 11) + (1 + 14),"multiply 21 by 11, then add 1 and 14.",246
+((16 + 4) - 14) * 12,"add 16 and 4, subtract 14, then multiply by 12.",72
+(15 * 23) - (5 * 14),"multiply 15 by 23, then subtract the product of 5 and 14.",275
+(24 + (17 - 21)) * 9,"subtract 21 from 17, add 24 to that, then multiply by 9.",180
+((18 + 25) * (16 + 15)),"add 18 and 25, add 16 and 15, then multiply the two results.",1333
+(24 + 19) + (9 - 11),"add 24 and 19, subtract 11 from 9, then add the two results.",41
+(8 + 3 + 9 + 15),"add 8, 3, 9, and 15.",35
+(25 + 15) * 19 + 20,"add 25 and 15, multiply by 19, then add 20.",780
+(13 + 11) + (1 - 16),"add 13 and 11, subtract 16 from 1, then add the two results.",9
+(11 * 6) + (16 * 7),"multiply 11 by 6, multiply 16 by 7, then add the two results.",178
+(9 - 11) + (9 * 20),"subtract 11 from 9, then add the product of 9 and 20.",178
+(9 + 18) * (1 - 17),"add 9 and 18, take 1 minus 17, then multiply the two results.",-432
+(3 + 8) - (24 + 14),"add 3 and 8, add 24 and 14, then subtract the second sum from the first.",-27
+(18 + 25) - (8 + 23),"add 18 and 25, add 8 and 23, then subtract the second sum from the first.",12
+((21 + 23 + 16) * 15) - 23,"add 21, 23, and 16, multiply by 15, then subtract 23.",877
+(1 - (3 * 10)) + 8,"multiply 3 by 10, subtract that from 1, then add 8.",-21
+(23 * (8 - 10)) + 22,"subtract 10 from 8, multiply that by 23, then add 22.",-24
+(12 * 16) + (18 * 17),"multiply 12 by 16, multiply 18 by 17, then add the two results.",498
+(14 * 24) + (18 * 11),"multiply 14 by 24, multiply 18 by 11, then add the two results.",534
+(23 * (15 + 9)) - 10,"add 15 and 9, multiply that by 23, then subtract 10.",542
+(8 + (4 * 24)) - 7,"multiply 4 by 24, add 8 to that, then subtract 7.",97
+(4 - 24) + (18 * 25),"subtract 24 from 4, then add the product of 18 and 25.",430
+(6 + 7) - (7 + 24),"add 6 and 7, add 7 and 24, then subtract the second sum from the first.",-18
+((9 - 24) + (19 - 25)),"subtract 24 from 9, subtract 25 from 19, then add the two results.",-21
+((20 + 10) * 4) + 7,"add 20 and 10, multiply by 4, then add 7.",127
+(8 + 12) * 6 - 10,"add 8 and 12, then multiply that by 6, then subtract 10 from that.",110
+(23 - 18) * 5 + 9,"subtract 18 from 23, multiply the result by 5, then add 9.",34
+(2 + 18 + 10) - 23,"add 2, 18, and 10, then subtract 23.",7
+(21 + 25) + (16 - 4),"add 21 and 25, subtract 4 from 16, then add the two results.",58
+(1 + 19) - (10 + 16),"add 1 and 19, add 10 and 16, then subtract the second sum from the first.",-6
+(15 * (11 + 6)) - 2,"add 11 and 6, multiply that by 15, then subtract 2.",253
+(16 + 4) - (3 + 13),"add 16 and 4, add 3 and 13, then subtract the second sum from the first.",4
+(3 - 19) * 21 + 22,"subtract 19 from 3, multiply the result by 21, then add 22.",-314
+(5 + 5) + (19 * 10),"add 5 and 5, then add the product of 19 and 10.",200
+((8 + 4) * (18 + 25)),"add 8 and 4, add 18 and 25, then multiply the two results.",516
+(20 + 20) * (20 + 8) - 20,"add 20 and 20, add 20 and 8, multiply the sums, then subtract 20.",1100
+((17 + 13) * 15) + 15,"add 17 and 13, multiply by 15, then add 15.",465
+(19 + (14 - 10)) * 19,"subtract 10 from 14, add 19 to that, then multiply by 19.",437
+(2 + 20) * (24 + 4) - 2,"add 2 and 20, add 24 and 4, multiply the sums, then subtract 2.",614
+(7 + 21) * 7 + 9,"add 7 and 21, multiply by 7, then add 9.",205
+(3 * 6 * 8) + 6,"multiply 3, 6, and 8 together, then add 6.",150
+(3 * 6) - 1 - 14,"multiply 3 by 6, then subtract 1, then subtract 14.",3
+(23 - 20) * 16 + 10,"subtract 20 from 23, multiply the result by 16, then add 10.",58
+(8 - 10) + (23 * 10),"subtract 10 from 8, then add the product of 23 and 10.",228
+((15 - 3) * (22 + 8)),"subtract 3 from 15, add 22 and 8, then multiply the two results.",360
+((9 + 21 + 19) * 22) - 21,"add 9, 21, and 19, multiply by 22, then subtract 21.",1057
+(7 + 14 + 4 + 18),"add 7, 14, 4, and 18.",43
+(21 + 5) + (9 * 5),"add 21 and 5, then add the product of 9 and 5.",71
+(2 * 6) + 10 + 20,"multiply 2 by 6, then add 10, then add 20.",42
+(19 * 10) - 15 - 4,"multiply 19 by 10, then subtract 15, then subtract 4.",171
+(23 * (10 + 23)) - 13,"add 10 and 23, multiply that by 23, then subtract 13.",746
+(17 + 18) + (16 * 15),"add 17 and 18, then add the product of 16 and 15.",275
+(20 + (2 * 14)) - 24,"multiply 2 by 14, add 20 to that, then subtract 24.",24
+(20 + 9 + 1 + 3),"add 20, 9, 1, and 3.",33
+(22 + 19) * (19 + 1) - 22,"add 22 and 19, add 19 and 1, multiply the sums, then subtract 22.",798
+(22 + 9) * (19 + 2) - 22,"add 22 and 9, add 19 and 2, multiply the sums, then subtract 22.",629
+((25 + 6) - 16) * 17,"add 25 and 6, subtract 16, then multiply by 17.",255
+((15 + 9) * (6 + 19)),"add 15 and 9, add 6 and 19, then multiply the two results.",600
+(21 * 16) + (3 * 16),"multiply 21 by 16, multiply 3 by 16, then add the two results.",384
+14 * 11 + 11 - 22,"multiply 14 by 11, then add 11, then subtract 22.",143
+(6 + 11) - (14 + 23),"add 6 and 11, add 14 and 23, then subtract the second sum from the first.",-20
+(10 * 22 * 13) + 25,"multiply 10, 22, and 13 together, then add 25.",2885
+(2 * (15 + 3)) - 11,"add 15 and 3, multiply that by 2, then subtract 11.",25
+(11 + 4) + (25 - 13),"add 11 and 4, subtract 13 from 25, then add the two results.",27
+(17 * 1) - 22 - 18,"multiply 17 by 1, then subtract 22, then subtract 18.",-23
+(14 * 2) + (7 * 17),"multiply 14 by 2, multiply 7 by 17, then add the two results.",147
+(20 * 25) - 16 - 21,"multiply 20 by 25, then subtract 16, then subtract 21.",463
+(25 * 2 * 7) + 9,"multiply 25, 2, and 7 together, then add 9.",359
+(5 + 10) - (15 + 23),"add 5 and 10, add 15 and 23, then subtract the second sum from the first.",-23

@@ -1,0 +1,75 @@
+[project]
+name = "peralta"
+version = "0.0.1"
+description = ""
+authors = [{ name = "kahnvex", email = "jarrod.kahn@gmail.com" }]
+requires-python = ">=3.10,<3.11"
+readme = "README.md"
+license = "MIT"
+
+dependencies = [
+    # Linux ARM64 (CUDA) → custom wheel stored on skynas.kahnvex.com (mounted to skylab0.kahnvex.com).
+    'torch @ https://skylab0.kahnvex.com/skydisk/projects/torch/2.8/torch-2.8.0-cp310-cp310-linux_aarch64.whl ; sys_platform == "linux" and platform_machine == "aarch64"',
+    'triton @ https://skylab0.kahnvex.com/skydisk/projects/triton/3.2.0/triton-3.2.0-cp310-cp310-linux_aarch64.whl ; sys_platform == "linux" and platform_machine == "aarch64"',
+    # macOS ARM (MPS) → standard mac wheels from PyPI
+    'torch>=2.8,<2.9 ; sys_platform == "darwin" and platform_machine == "arm64"',
+    # Linux x86_64 CPU-only node(s) → standard PyPI CPU wheels
+    'torch>=2.8,<2.9 ; sys_platform == "linux" and platform_machine == "x86_64"',
+    "transformers>=4.54.1,<5",
+    "datasets>=4.0.0,<5",
+    "fiddle>=0.3.0,<0.4",
+    "typing-extensions>=4.14.1,<5",
+    "black>=25.1.0,<26",
+    "ray[default]>=2.48.0,<2.49.0",
+    "trl>=0.20.0,<0.21",
+    "ruff>=0.12.7",
+    "tensorboard>=2.20.0",
+    "pyright>=1.1.403",
+    "torchdata>=0.11.0,<0.12.0",
+    "tensordict>=0.9.1",
+    "mypy>=1.17.1",
+    "numpy<2.0.0",
+    "tqdm>=4.67.1",
+    "jupyter>=1.1.1",
+    "plotly>=6.3.0",
+    "markdown>=3.8.2",
+    "watchdog>=6.0.0",
+    "pygments>=2.19.2",
+    "pymdown-extensions>=10.16.1",
+]
+
+[tool.uv]
+allow-insecure-host = ["skylab0.kahnvex.com"]
+
+[dependency-groups]
+dev = []
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.metadata]
+allow-direct-references = true
+
+[tool.hatch.build.targets.wheel]
+packages = ["peralta"]
+
+[tool.pytype]
+inputs = ['package_name']
+
+[tool.pyright]
+include = ["peralta"]
+exclude = ["**/__pycache__", ".venv", "build", "dist"]
+pythonVersion = "3.10"
+typeCheckingMode = "strict"
+useLibraryCodeForTypes = true
+# So ML libs don't drown you in Unknowns:
+reportUnknownMemberType = "warning"
+reportUnknownArgumentType = "warning"
+reportUnknownVariableType = "warning"
+reportMissingTypeStubs = false
+
+# If you use a src/ layout:
+executionEnvironments = [
+  { root = "peralta",  extraPaths = ["src"] },
+]
