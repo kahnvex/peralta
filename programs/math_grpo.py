@@ -244,6 +244,29 @@ class Trainer:
         clipped = torch.clamp(ratio, 1.0 - _GRPO_CLIP_EPS, 1.0 + _GRPO_CLIP_EPS) * A
         policy_obj = torch.minimum(unclipped, clipped)
 
+        # === NEW: Reference forward & Schulman unbiased KL (ref over current) ===
+        # Forward reference model (no grad) to get per-token log-probs at the chosen labels
+        with torch.no_grad():
+            ref_out = cast(CausalLMOutputWithPast, trl_utils.forward(self.ref_model, toks, 0))
+            ref_logits = ref_out.logits[:, :-1, :]                               # [B, S-1, V]
+        lp_ref = trl_utils.selective_log_softmax(ref_logits, labels)             # [B, S-1]
+    
+        # Compute unbiased per-token estimator: (p_ref/p_cur) - log(p_ref/p_cur) - 1
+        # where p_ref/p_cur = exp(lp_ref - lp_cur). (Use a clamp for extreme ratios.)
+        log_ratio_ref_cur = (lp_ref - lp_cur).clamp(-20, 20)
+        ratio_ref_cur = torch.exp(log_ratio_ref_cur)
+    
+        kl_unbiased_tok = ratio_ref_cur - log_ratio_ref_cur - 1.0                # [B, S-1]
+    
+        # Mask to generated positions and average per generated token
+        denom = gen_len.sum().to(lp_cur.dtype).clamp_min(1)
+        kl_mean = (kl_unbiased_tok * gen_mask_f).sum() / denom
+    
+        # --- final objective: maximize policy_obj, penalize KL ---
+        # If you already have a hyperparam, replace  _KL_BETA with it or pull from self.
+        beta = getattr(self, "kl_beta", _KL_BETA)
+        loss = -(policy_obj * gen_mask_f).sum() / denom + beta * kl_mean
+        
         gen_mask_f = gen_mask.to(lp_cur.dtype)
         denom = gen_len.sum().to(lp_cur.dtype).clamp_min(1)
         loss = -(policy_obj * gen_mask_f).sum() / denom
