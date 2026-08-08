@@ -231,7 +231,7 @@ selection logic, I just pinned Ray actors to specific machines.
 
 These three machines are networked over my LAN in the following topology:
 
-<img alt="Network topology diagram" src="assets/network_topo.png" style="max-width: 900px; margin: 0 auto; display: block" />
+<img alt="Network topology diagram" src="assets/network_topo.png" class="fig fig-wide" />
 
 <p class="comment">
 This diagram shows the physical network layout. The hostnames in the diagram
@@ -241,7 +241,7 @@ are only configured on my LAN.
 I said the goal of this project was to keep it simple—I mostly meant the code,
 not the hardware. Here's a look at my admittedly over-engineered network rack:
 
-<img alt="Network and compute rack" src="assets/rack.jpg" style="max-width: 700px; margin: 0 auto; display: block" />
+<img alt="Network and compute rack" src="assets/rack.jpg" class="fig" />
 
 <p class="comment">
 From top to bottom: Network attached storage (UNAS Pro), camera and access
@@ -268,7 +268,7 @@ both rack machines as generators. As you can imagine, this was much, much slower
 than the colocated setup since the trainer had to send updated checkpoints to the
 generators over the open internet.
 
-<img alt="M2 Air on a counter in Tahoe" src="assets/tahoe_macbook.jpg"  style="max-width: 700px; margin: 0 auto; display: block" />
+<img alt="M2 Air on a counter in Tahoe" src="assets/tahoe_macbook.jpg" class="fig" />
 
 <p class="comment">The M2 Air executing a training run from Tahoe, with the samplers in Oakland.
 After each step, the weights must traverse the open internet so the generators

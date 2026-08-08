@@ -280,7 +280,55 @@ HTML_SHELL = """<!doctype html>
 
     img {
       max-width: 100%;
+      height: auto;
       border-radius: 10px;
+    }
+
+    /* figures never force the page wider than the viewport */
+    .fig {
+      display: block;
+      width: 100%;
+      max-width: 700px;
+      height: auto;
+      margin: 1.5rem auto;
+    }
+
+    .fig-wide {
+      max-width: 900px;
+    }
+
+    /* only once the viewport can comfortably hold it, let the wide
+       diagram break out past the text column */
+    @media (min-width: 1000px) {
+      .fig-wide {
+        width: 900px;
+        margin-left: calc(50% - 450px);
+      }
+    }
+
+    /* plotly charts size to their container, never past it */
+    .plotly-graph-div,
+    .js-plotly-plot {
+      max-width: 100%;
+    }
+
+    pre, table, .highlight {
+      max-width: 100%;
+    }
+
+    /* wide display equations scroll inside themselves rather than
+       stretching the page */
+    mjx-container[display],
+    .arithmatex {
+      max-width: 100%;
+      overflow-x: auto;
+      overflow-y: hidden;
+    }
+
+    /* long inline identifiers wrap instead of pushing the column wide */
+    p code, li code, td code {
+      overflow-wrap: break-word;
+      word-break: break-word;
     }
 
     p.comment {
